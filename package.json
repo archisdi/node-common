@@ -1,0 +1,27 @@
+{
+  "name": "node-common",
+  "version": "1.0.0",
+  "description": "common modules for nodejs apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "nodemon": "^1.18.10"
+  },
+  "author": "archie isdiningrat",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^0.5.5",
+    "ioredis": "^4.6.2",
+    "mongoose": "^5.4.19",
+    "sequelize": "^5.1.0"
+  }
+}
