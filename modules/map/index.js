@@ -2,9 +2,9 @@ const GMAPS = require('@google/maps');
 
 let client;
 
-exports.initialize = () => {
+exports.initialize = ({ key }) => {
     client = GMAPS.createClient({
-        key: process.env.GMAPS_APIKEY,
+        key,
         Promise
     });
 };
