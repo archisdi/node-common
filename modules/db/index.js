@@ -37,7 +37,7 @@ exports.getInstance = async () => {
 exports.startTransaction = async () => {
     if (!modelsInitialized) await exports.initialize();
     models.db_transaction = await models.context.transaction({
-        isolationLevel: models.context.Transaction.ISOLATION_LEVELS.READ_UNCOMMITTED
+        isolationLevel: models.ORMProvider.Transaction.ISOLATION_LEVELS.READ_UNCOMMITTED
     });
 };
 
