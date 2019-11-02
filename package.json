@@ -21,7 +21,7 @@
   "license": "ISC",
   "dependencies": {
     "ioredis": "^4.6.2",
-    "mongoose": "^5.4.19",
+    "mongoose": "^5.7.5",
     "sequelize": "^6.0.0"
   }
 }
